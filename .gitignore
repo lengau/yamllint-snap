@@ -1,0 +1,8 @@
+# Output from `snapcraft try`
+/prime/
+
+/*.snap
+
+# IDE tools
+*.kdev4
+.idea/
