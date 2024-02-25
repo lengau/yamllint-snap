@@ -13,6 +13,14 @@ compression: lzo
 grade: stable # must be 'stable' to release into candidate/stable channels
 confinement: strict # use 'strict' once you have the right plugs and slots
 
+architectures:
+  - amd64
+  - arm64
+  - armhf
+  - ppc64el
+  - riscv64
+  - s390x
+
 apps:
   yamllint:
     command: bin/yamllint
