@@ -2,12 +2,11 @@ name: yamllint
 base: core22
 # build-base: devel
 version: "1.35.1"
-summary: Single-line elevator pitch for your amazing snap # 79 char long summary
+summary: A linter for YAML files. (Unofficial package)
 description: |
-  This is my-snap's description. You have a paragraph or two to tell the
-  most important story about your snap. Keep it under 100 words though,
-  we live in tweetspace and your description wants to look good in the snap
-  store.
+  yamllint does not only check for syntax validity, but for weirdnesses like
+  key repetition and cosmetic problems such as lines length, trailing spaces,
+  indentation, etc.
 compression: lzo
 
 grade: stable # must be 'stable' to release into candidate/stable channels
